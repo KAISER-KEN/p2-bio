@@ -16,12 +16,24 @@ p{
 
 /* Bio Page*/
 
-.bio p{
-	text-align:center;
-}
+
 .bio h2,
 .bio h3{
 	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.bio h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bio article{
+	background: teal;
+	margin: 0 auto;
+	width: 100px;
+
+}
+
 }
 
 .bio h2{
@@ -30,6 +42,7 @@ p{
 }
 
 .bio section{
+	float: left;
 	width: 50%;
 
 }

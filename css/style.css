@@ -1,10 +1,12 @@
 /* Global*/
 body{
 	font-family: Georgia, Times, 'Times New Roman', serif;
-	color: red;
-
+	text-align: center;
 }
 
+p{
+
+}
 
 
 /* Home Page*/
@@ -14,8 +16,23 @@ body{
 
 /* Bio Page*/
 
+.bio p{
+	text-align:center;
+}
+.bio h2,
+.bio h3{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
 
+.bio h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 
+.bio section{
+	width: 50%;
+
+}
 
 /* Style Tile*/
 

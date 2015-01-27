@@ -1,0 +1,73 @@
+/* Global*/
+
+header{
+	background: gray;
+	margin: 0 auto;
+	width: 500px;
+}
+
+body{
+	background: green;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+p{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 1em;
+}
+
+.social-icon{
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	margin: 0.5px;
+}
+
+/* Home Page (index)*/
+
+h1{
+	text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 1px;
+}
+
+
+
+/* Bio Page*/
+
+.bio h2, .bio h3{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.bio ol{
+	text-align: left;
+}
+
+.bio h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bio article{
+	background: gray;
+	margin: 0 auto;
+	width: 500px;
+
+}
+
+.bio h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bio section{
+	float: left;
+	width: 50%;
+
+}
+
+/* Style Tile*/
+
+
+

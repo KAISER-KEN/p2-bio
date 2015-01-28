@@ -2,8 +2,10 @@
 
 header{
 	background: gray;
-	margin: 0 auto;
+	margin: 10px auto;
+	height: 175px;
 	width: 500px;
+	border: 5px solid black;
 }
 
 body{
@@ -22,6 +24,10 @@ p{
 	width: 50px;
 	height: 50px;
 	margin: 0.5px;
+}
+
+.clearfix{
+	clear: both;
 }
 
 /* Home Page (index)*/
@@ -58,7 +64,8 @@ h1{
 
 .bio h2{
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	font-size: 2.25em;
+	letter-spacing: 1px;
 }
 
 .bio section{

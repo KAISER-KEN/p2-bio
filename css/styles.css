@@ -1,17 +1,38 @@
 /* Global*/
 
 header{
-	background: gray;
-	margin: 10px auto;
-	height: 175px;
-	width: 500px;
-	border: 5px solid black;
+	background: blue;
+	margin: 15px auto;
+    padding: 0px;
+	height: 120px;
+	width: 100%;
+	border: 5px solid red;
 }
 
 body{
-	background: green;
+	background: lightblue;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
+}
+
+
+section{
+  width: 100%;
+  height: 60px;
+  background: grey;
+  margin: 40px auto;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+section a{
+  float: center;
+  text-decoration: none;
+  font-size: 3.5em;
+  width: 100%;
+  height: 100px;
+  background: white;
+  margin: auto auto;
 }
 
 p{
@@ -19,14 +40,46 @@ p{
 	font-size: 1em;
 }
 
+img{
+	max-height: 500px;
+	margin-top: 100px;
+}
+
 .social-icon{
-	text-align:center;
+	text-align: center;
 	width: 50px;
 	height: 50px;
 	margin: 0.5px;
 }
 
+/* Pseudo Codes */
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: orange; 
+}
+
+a:active{
+  color: tomato;
+}
+
+a:visited{
+  color: red;
+}
+
+a:focus{
+  background: lightblue;
+  color: orange;
+}
+
+
+/* Clear */
+
 .clearfix{
+	float: center;
 	clear: both;
 }
 
@@ -56,22 +109,28 @@ h1{
 }
 
 .bio article{
-	background: gray;
-	margin: 0 auto;
+	margin: 15px auto;
 	width: 500px;
+  border: 5px solid red;
+}
 
+#name,#pro,#bio,#education,#skill,#contact{
+  background: grey;
+}
+
+#education ul{
+  text-align: left;
+}
+
+#skill ul{
+  text-align:left;
+  
 }
 
 .bio h2{
 	text-transform: uppercase;
 	font-size: 2.25em;
 	letter-spacing: 1px;
-}
-
-.bio section{
-	float: left;
-	width: 50%;
-
 }
 
 /* Style Tile*/
